@@ -5,7 +5,7 @@ import time
 import threading
 
 def get_credentials():
-    mysql_user = input("Introduce el usuario de MySQL: ")
+    mysql_user = input("Introduce el usuario de MySQL; ")
     mysql_password = getpass.getpass("Introduce la contraseña de MySQL: ")
     postgres_user = input("Introduce el usuario de PostgreSQL: ")
     postgres_password = getpass.getpass("Introduce la contraseña de PostgreSQL: ")
